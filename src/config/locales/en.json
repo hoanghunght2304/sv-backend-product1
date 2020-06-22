@@ -1,0 +1,21 @@
+{
+	"Sản phẩm này đã tồn tại.!": "Sản phẩm này đã tồn tại.!",
+	"Unauthorized": "Unauthorized",
+	"VALIDATION_ERROR": "VALIDATION_ERROR",
+	"Named parameter \":statuses\" has no value in the given object.": "Named parameter \":statuses\" has no value in the given object.",
+	"column \"a0000000\" does not exist": "column \"a0000000\" does not exist",
+	"Cannot set property 'date' of undefined": "Cannot set property 'date' of undefined",
+	"Cannot read property 'complete_at' of undefined": "Cannot read property 'complete_at' of undefined",
+	"Missing where attribute in the options parameter": "Missing where attribute in the options parameter",
+	"NOT_FOUND!": "NOT_FOUND!",
+	"Không tìm thấy dữ liệu.!": "Không tìm thấy dữ liệu.!",
+	"Tham số không hợp lệ.!": "Tham số không hợp lệ.!",
+	"Cannot read property 'map' of undefined": "Cannot read property 'map' of undefined",
+	"syntax error at or near \":\"": "syntax error at or near \":\"",
+	"column p.status does not exist": "column p.status does not exist",
+	"missing FROM-clause entry for table \"o\"": "missing FROM-clause entry for table \"o\"",
+	"syntax error at or near \".\"": "syntax error at or near \".\"",
+	"Cannot set property 'complete_at' of undefined": "Cannot set property 'complete_at' of undefined",
+	"Cannot read property 'updated_by' of undefined": "Cannot read property 'updated_by' of undefined",
+	"relation \"tbl_products\" does not exist": "relation \"tbl_products\" does not exist"
+}

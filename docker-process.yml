@@ -1,0 +1,19 @@
+apps:
+  - script   : './dist/index.js'
+    name     : 'sv-dunnio-item-api'
+    min_uptime: 10000
+    max_restarts: 15
+    restart_delay: 2000
+    kill_timeout: 3000
+  - script   : './dist/index-event-dispatcher.js'
+    name     : 'sv-dunnio-item-event'
+    min_uptime: 10000
+    max_restarts: 15
+    restart_delay: 2000
+    kill_timeout: 3000
+  - script   : './dist/index-worker.js'
+    name     : 'sv-dunnio-item-worker'
+    min_uptime: 10000
+    max_restarts: 15
+    restart_delay: 2000
+    kill_timeout: 3000

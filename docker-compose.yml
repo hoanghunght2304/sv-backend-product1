@@ -1,0 +1,26 @@
+version: "2"
+services:
+    sv-backend-product:
+        container_name: sv_backend_product
+        build: .
+        environment:
+            - POSTGRES_URI=postgres://admin:admin@127.0.0.1:5432/sv-dunnio-product
+            - POSTGRES_URI_TEST=postgres://admin:admin@127.0.0.1:5432/sv-dunnio-product-beta
+            - MONGO_URI=mongodb://127.0.0.1:27017/sv-dunnio-item?authSource=admin
+            - MONGO_URI_TEST=mongodb://127.0.0.1:27017/sv-dunnio-item-beta?authSource=admin
+            - RABBITMQ_URI=amqp://127.0.0.1:5672
+            - REDIS_URI=redis://127.0.0.1:6379
+            - MANAGER_SERVICE_URL=http://sv_backend_manager:4000
+            - PORT=4000
+        user: "1000:1000"
+        volumes:
+            - .:/app
+        ports:
+            - "4003:4000"
+        external_links:
+            - mongodb
+        networks:
+            - docker_sv_backend_common
+networks:
+    docker_sv_backend_common:
+        external: true
