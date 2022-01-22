@@ -69,7 +69,7 @@
         "moment-timezone": "^0.5.13",
         "mongoose": "^5.7.0",
         "morgan": "^1.8.1",
-        "nanoid": "^2.0.3",
+        "nanoid": "^3.1.31",
         "pg": "^7.17.0",
         "pm2": "^2.4.6",
         "rabbit-event-source": "git+https://dunnio-deploy:ftUpkJ1RXAsR2bBwfsyb@gitlab.com/dunniovn/rabbit-event-source.git",
